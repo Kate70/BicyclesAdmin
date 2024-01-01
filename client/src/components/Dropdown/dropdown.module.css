@@ -1,0 +1,32 @@
+.dropdown{
+    
+    display: flex;
+    
+}
+.customDropdown{
+    border: none;
+    background: inherit;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none; /* Remove the default arrow icon background */
+    background-color: transparent; /* Set background color to transparent */
+    padding-right: 3px; 
+    padding-left: 18px;
+    text-align-last: center; /* For Firefox and some versions of IE/Edge */
+  text-align: center;/* Add padding to the right to create space for a custom icon if needed */
+  }
+  
+select:focus {
+    outline: none; /* Remove the default outline on focus */
+} 
+.dropdownIcon{
+    margin-top: 4px; 
+}  
+.customDropdownOptions {
+    color: initial;
+    background-color: #C4C4C4;
+    font-weight: initial;
+  }

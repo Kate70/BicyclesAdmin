@@ -1,0 +1,39 @@
+.wrapperIndide{
+    
+   
+    padding:0px;
+   
+   
+}
+ul{
+    margin: 0;
+}
+.list{
+    padding: 0;
+   margin: 0 px;
+   
+}
+li{
+    position: relative;
+    box-sizing: border-box;
+   margin: 9px 9px 12px 12px;
+   padding: 12px 12px 12px 18px;
+   height: 83px;   
+    display: flex;
+    justify-content: space-between;
+    width: 618px;
+    list-style: none;
+    border: 2px solid #6FCF97;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+}
+li .available{
+    border-bottom: #6FCF97;
+}
+.unavailable{
+border-color: #EB5757;
+opacity: 0.5;
+}
+.busy{
+border-color: #F2994A;
+}

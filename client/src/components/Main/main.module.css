@@ -1,0 +1,42 @@
+.title {
+  width: 1120px;
+  height: 34px;
+  display: block;
+  font-family: "Saira Stencil One";
+  padding: 4px 16px;
+  background-color: #696969;
+  color: #e8e8e8;
+  font-size: 24px;
+}
+.footer {
+  max-width: 1132px;
+  height: 22px;
+  background: #fff;
+
+  padding: 10px;
+  font-size: 20px;
+  text-align: right;
+  background-color: #696969;
+  color: #e8e8e8;
+  width: 100%;
+}
+.footer span {
+  color: #cbcaca;
+  margin-right: 10px;
+}
+.wrapperMain {
+  display: flex;
+  height: 100%;
+}
+.wrapper {
+  width: 639px;
+  border-right: 1px solid #c4c4c4;
+  background-color: #fff;
+  height: auto;
+}
+.container {
+  display: flex;
+  width: 513px;
+
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  font-family: "Saira", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+   justify-content: space-between;
+  max-width: 1152px;
+  height: 700px;
+  margin: 0 auto;
+
+  
+}
